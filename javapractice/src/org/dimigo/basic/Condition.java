@@ -47,7 +47,7 @@ public class Condition {
 		}
 		System.out.println("거리 : " + distance);
 		System.out.println("운송수단 : " + vehi);
-		System.out.println("요금 : " + price);
+		System.out.println("통행료 : " + price);
 	}
 
 }
