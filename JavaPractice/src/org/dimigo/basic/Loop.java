@@ -7,11 +7,12 @@ public class Loop {
 				if (i == j) {
 					System.out.printf("*");
 					continue;
-				}    
+				}
 				System.out.print(j);
-			}
+			}  
 			System.out.println();
 		}
 	}
 
 }
+	
