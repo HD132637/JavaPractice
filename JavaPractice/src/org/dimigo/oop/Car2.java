@@ -20,7 +20,7 @@ public class Car2 {
 	}
 	
 	public String getCompany() {
-		return company;	
+		return company;
 	}
 	
 	public String getModel() {
