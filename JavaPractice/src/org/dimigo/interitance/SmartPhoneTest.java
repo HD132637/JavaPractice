@@ -10,7 +10,7 @@ public class SmartPhoneTest {
 			a[i].turnOn();
 			a[i].pay();
 			
-			a[i].useSpecicalFunction(a[i]);
+			a[i].useSpecicalFunction();
 			
 			a[i].turnOff();
 			System.out.println();

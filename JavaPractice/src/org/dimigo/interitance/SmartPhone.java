@@ -27,16 +27,24 @@ public class SmartPhone {
 		
 	}
 	
-	public void useSpecicalFunction(SmartPhone phone){
-		if(phone instanceof iPhone){
-			iPhone i = (iPhone) phone;
+	public void useSpecicalFunction(){
+		if(this instanceof iPhone){
+			iPhone i = (iPhone) this;
 			i.useAirDrop();
 		}
 		
-		if(phone instanceof Galaxy){
-			Galaxy g = (Galaxy) phone;
+		if(this instanceof Galaxy){
+			Galaxy g = (Galaxy) this;
 			g.useWirelessCharging();
 		}
+	}
+
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String model) {
+		this.model = model;
 	}
 
 	@Override
