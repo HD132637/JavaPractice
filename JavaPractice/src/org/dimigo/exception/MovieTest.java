@@ -12,14 +12,15 @@ public class MovieTest {
 			try{
 			buyTicket(movie, age);
 			} catch (Exception e){
-				((AgeCheckException)e).method(movie);
+				System.out.println(e.getMessage());
 			}
 		}
 	}
 
 	private static void buyTicket(Movie movie, int age) throws Exception{
 		if(age < movie.getLimitAge()){
-			throw new AgeCheckException(movie);
+			throw new AgeCheckException(movie.getTitle() + "은/는 " + movie.getLimitAge() +
+					"세 이용가입니다.");
 		} else{
 			System.out.println(movie.getTitle() + " 즐감하세요~");
 		}
