@@ -41,7 +41,6 @@ public class MelonGenreChart {
 	}
 	
 	public static void printMap(Map<String, List<Music>> map){
-		int i = 1;
 		int j = 1;
 		for(Map.Entry<String, List<Music>> entry : map.entrySet()){
 			System.out.println("[" + entry.getKey() + "]");

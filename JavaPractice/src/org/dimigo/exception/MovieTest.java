@@ -13,6 +13,7 @@ public class MovieTest {
 			buyTicket(movie, age);
 			} catch (Exception e){
 				System.out.println(e.getMessage());
+				
 			}
 		}
 	}
